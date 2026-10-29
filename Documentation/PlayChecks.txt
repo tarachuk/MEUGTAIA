@@ -1,0 +1,68 @@
+PASS · GameManager inicializa no Play
+PASS · WASD e sprint deslocam o CharacterController
+PASS · Pulo eleva o personagem
+PASS · Personagem aterrissa no chão
+PASS · Trânsito segue sua rota independentemente do jogador
+PASS · Interação E inicia entrega
+PASS · E entra na van e troca o controle
+PASS · Direção arcade continua funcionando com rotação física bloqueada
+PASS · Impacto e torque não deixam o carro girando sozinho
+INFO · held input (0.00, 0.00) · runtime input (0.00, 1.00) · grounded True · driver True · speed 15,35177
+PASS · Aceleração produz motion blur, FOV dinâmico e poeira
+INFO · van de (-42.00, 0.91, -42.00) para (-22.23, 0.77, -42.00) · velocidade 14,69869 · input (0.00, 0.00) · blocked False
+PASS · Aceleração move o Rigidbody do veículo
+PASS · Entrega conclui e paga recompensa
+PASS · Saída restaura personagem e câmera
+PASS · Loja desconta dinheiro e adiciona munição
+PASS · Disparo consome munição e gera wanted
+PASS · Recarga transfere munição para carregador
+PASS · Crime faz a polícia gerar reforços com NavMesh
+PASS · Confronto avança após derrotar todos os guardas
+PASS · Carga é recolhida ao alcançar o pickup
+PASS · Carga entregue no abrigo conclui confronto
+PASS · Fuga começa com duas estrelas
+PASS · Wanted termina depois do tempo fora de visão
+PASS · As três missões chegam ao fim com exploração liberada
+PASS · Dano letal ativa morte e slow motion
+PASS · Respawn restaura vida no ponto seguro
+PASS · Pause congela o jogo
+PASS · Terceira arma começa bloqueada e sem compra gratuita
+PASS · Tecla 3 e compra fora da loja não concedem rifle
+PASS · Guardas da missão desaparecem após conclusão
+PASS · Guardas da missão desaparecem após conclusão
+PASS · Guardas da missão desaparecem após conclusão
+PASS · E abre FAROL no novo quarteirão
+PASS · Compra exclusiva desconta exatamente $100 e libera espaço 3
+PASS · Compra duplicada não cobra novamente
+INFO · luneta: slot 2 equipado True câmera True FOV 18,90077 bloqueado False
+PASS · Rifle equipado usa luneta com zoom e sensibilidade próprios
+PASS · Raycast do rifle causa dano real em prop e consome cartucho
+PASS · Primeiro soco inicia combate corpo a corpo
+PASS · Soco aplica dano e knockback
+PASS · Segundo soco continua combo
+PASS · Terceiro golpe finaliza combo de três
+PASS · Chute causa dano e empurrão
+PASS · Polícia rejeita candidato visível em frente à câmera
+PASS · Candidato atrás da câmera pode ser considerado oculto
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Candidato policial fica distante e fora da visão
+PASS · Sistema encontra posições ocultas alcançáveis para reforços
+PASS · Explosão próxima provoca camera shake
+PASS · Tiros suficientes explodem e inutilizam permanentemente o carro
+PASS · Explosão destrói e lança props próximos
+PASS · Carro destruído rejeita nova entrada
+PASS · Noite liga postes e faróis automaticamente
+PASS · Dia apaga postes e faróis
+PASS · Minimapa mantém objetivo distante dentro da borda
+PASS · Entrega pode ser retomada com van nova fora dos destroços
+PASS · Nenhum erro ou exceção durante o ciclo de jogo

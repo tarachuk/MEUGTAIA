@@ -1,0 +1,1 @@
+PASS · Occlusion Culling calculado para a cidade.
